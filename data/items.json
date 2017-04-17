@@ -1,0 +1,288 @@
+{
+    "_id": 1,
+    "title": "A 5 seater Sofa Cover",
+    "slogan": "A 5 star rated product",
+    "description": "A product that that has all the looks, utility and very well fits in your budget",
+    "stars": 0,
+    "category": "Sofa Covers",
+    "img_url": "/img/products/ca1.jpg",
+    "price": 1500
+}
+{
+    "_id": 2,
+    "title": "A king size bedsheet",
+    "slogan": "A perfect bedsheet for a perfect home",
+    "description": "A product that is made of 100% cotton and takes your bedroom to another level",
+    "stars": 0,
+    "category": "Bedsheets",
+    "img_url": "/img/products/1.jpg",
+    "price": 800,
+    "reviews": [
+        {
+            "name": "",
+            "comment": "",
+            "stars": 5,
+            "date": 1.456067725049e+12
+        }
+    ]
+}
+{
+    "_id": 3,
+    "title": "Table Cover",
+    "slogan": "Attractive Table Covers",
+    "description": "Change the look of your boring tables with our exclusive range of table covers",
+    "stars": 0,
+    "category": "Table Covers",
+    "img_url": "/img/products/i2.png",
+    "price": 350
+}
+{
+    "_id": 4,
+    "title": " Cotton Cushion Covers",
+    "slogan": "Style your living room",
+    "description": "Crafted from ultra-soft combed cotton, these cushion covers are designed to comfort you.",
+    "stars": 0,
+    "category": "Cushion Covers",
+    "img_url": "/img/products/1024x250_1.jpg",
+    "price": 450,
+    "reviews": [
+        {
+            "name": "Shannon",
+            "comment": "This is so warm and comfortable.",
+            "stars": 2,
+            "date": 1.455800194995e+12
+        },
+        {
+            "name": "Bob",
+            "comment": "Love this.",
+            "stars": 5,
+            "date": 1.455804800769e+12
+        },
+        {
+            "name": "Jorge",
+            "comment": "Brown. It's brown.",
+            "stars": 4,
+            "date": 1.455804825509e+12
+        }
+    ]
+}
+{
+    "_id": 5,
+    "title": "Pillow Set",
+    "slogan": "Have a good night sleep",
+    "description": "Crafted from ultra-soft combed cotton, these pillows helps you in good quality sleep.",
+    "stars": 0,
+    "category": "Pillows",
+    "img_url": "/img/products/pi1.jpg",
+    "price": 450
+}
+{
+    "_id": 6,
+    "title": "Set of cushions",
+    "slogan": "go on with your cushion fights",
+    "description": "Let your style speak for itself with these set of cushions. Featuring a cotton exterior with solid contrast trim, brown in color.",
+    "stars": 0,
+    "category": "Cushions",
+    "img_url": "/img/products/i8.jpg",
+    "price": 550
+}
+{
+    "_id": 7,
+    "title": "Rainbow print Sofa cloth",
+    "slogan": "Add colors to your living room with this unique sofa cover",
+    "description": "The sofa cloth is smartly designed to match with any color.",
+    "stars": 0,
+    "category": "Sofa Covers",
+    "img_url": "/img/products/images (4).jpg",
+    "price": 900
+}
+{
+    "_id": 8,
+    "title": "Cotton Bedshhet",
+    "slogan": "The only bedsheet you'll ever need",
+    "description": "add a style statement to your bedroom with this bedsheet",
+    "stars": 0,
+    "category": "Bedsheets",
+    "img_url": "/img/products/dpi3.jpg",
+    "price": 2000
+}
+{
+    "_id": 9,
+    "title": "Multidesigned Cushion Covers",
+    "slogan": "You can't get better than that",
+    "description": "Think of a design and we have it.",
+    "stars": 0,
+    "category": "Cushion Covers",
+    "img_url": "/img/products/i7.jpg",
+    "price": 1200
+}
+{
+    "_id": 10,
+    "title": "Curtains",
+    "slogan": "Elegant Curtains",
+    "description": " Buy matt shading cloth curtain solid color professional eco friendly brief simple love curtains from Reliable curtain patterns to sew ...",
+    "stars": 0,
+    "category": "Curtains",
+    "img_url": "/img/products/matt-shading-cloth-curtain-solid-color-professional-eco-friendly-brief-simple-love-curtains.jpg",
+    "price": 549
+}
+{
+    "_id": 11,
+    "title": "Foot Mat",
+    "slogan": "2nd Edition",
+    "description": "Nice welcome cleaning foot mat",
+    "stars": 0,
+    "category": "Foot Mats",
+    "img_url": "/img/products/download.jpg",
+    "price": 200
+}
+{
+    "_id": 12,
+    "title": "Cushion Covers",
+    "slogan": "Add to your cushion cover collection",
+    "description": "Ultra soft cushion covers",
+    "stars": 0,
+    "category": "Cushion Covers",
+    "img_url": "/img/products/images (3).jpg",
+    "price": 1000
+}
+{
+    "_id": 13,
+    "title": "Libra design Table cover",
+    "slogan": "Great collection of table cloth",
+    "description": "Add colors to your living room with this unique sofa cover",
+    "stars": 0,
+    "category": "Table Covers",
+    "img_url": "/img/products/Swayam-Libra-Cotton-Table-Cover-4831-593339-1-catalog_m.jpg",
+    "price": 20.0,
+    "reviews": [
+        {
+            "name": "Ringo",
+            "comment": "He's very green.",
+            "stars": 4,
+            "date": 1.45580490225e+12
+        }
+    ]
+}
+{
+    "_id": 14,
+    "title": "Brown Color Sofa Cover",
+    "slogan": "Always insist of qualitu",
+    "description": "These are the 7 seater Sofa Covers that offers you more pieces..",
+    "stars": 0,
+    "category": "Sofa Covers",
+    "img_url": "/img/products/1024x250_3.jpg",
+    "price": 2000
+}
+{
+    "_id": 15,
+    "title": "White Coloured Net Curtains",
+    "slogan": "2nd Edition",
+    "description": "Presenting the curtains who are in love with white colour..",
+    "stars": 0,
+    "category": "Curtains",
+    "img_url": "/img/products/pic1.jpg",
+    "price": 29.0,
+    "reviews": [
+        {
+            "name": "Horatio",
+            "comment": "This is a pretty good book",
+            "stars": 4,
+            "date": 1.456086633854e+12
+        }
+    ]
+}
+{
+    "_id": 16,
+    "title": "Sofa Cover with Arms",
+    "slogan": "Add to your  collection",
+    "description": "Europe type sofa cushion pad cloth art sofa cover plush sofa cover all winter cover rural sofa cover antiskid thickening",
+    "stars": 0,
+    "category": "Sofa Covers",
+    "img_url": "/img/products/qwe.jpg",
+    "price": 1900
+}
+{
+    "_id": 17,
+    "title": "Deal-Day Rubber Foot Mat",
+    "slogan": "Premium Rubber Foot Mat",
+    "description": "Our crook handle stick umbrella opens automatically with the push of a button. A traditional umbrella with classic appeal.",
+    "stars": 0,
+    "category": "Foot Mats",
+    "img_url": "/img/products/umbrella-brown.jpg",
+    "price": 21.0,
+    "reviews": [
+        {
+            "name": "Donald Trump",
+            "comment": "This is the best item you will ever use.",
+            "stars": 5,
+            "date": 1.456270097364e+12
+        },
+        {
+            "name": "Shannon",
+            "comment": "Sturdy construction, but a little too big to fit in my room",
+            "stars": 3,
+            "date": 1.456270240382e+12
+        }
+    ]
+}
+{
+    "_id": 18,
+    "title": "Pillow Set",
+    "slogan": "Have a good night sleep",
+    "description": "Crafted from ultra-soft combed cotton, these pillows helps you in good quality sleep.",
+    "stars": 0,
+    "category": "Pillows",
+    "img_url": "/img/products/dsi.jpg",
+    "price": 210
+}
+{
+    "_id": 19,
+    "title": "Liberty Cushion Covers",
+    "slogan": "Designer Cushion Covers",
+    "description": "Add feel of the US to your living room with these cushion covers..",
+    "stars": 0,
+    "category": "Cushion Covers",
+    "img_url": "/img/products/si2.jpg",
+    "price": 4.0
+}
+{
+    "_id": 20,
+    "title": "Rubber Foot Mat",
+    "slogan": "Step In and Out",
+    "description": "Crafted from ultra-soft combed rubber, this foot mat features sporty contrast tipping .",
+    "stars": 0,
+    "category": "Foot Mats",
+    "img_url": "/img/products/RUBBER-ENTRANCE-MAT-MI17959-PRODUCT-b.jpg",
+    "price": 45.0
+}
+{
+    "_id": 21,
+    "title": "Bedsheet with a set of pillow covers",
+    "slogan": "A complete set",
+    "description": "Make some space in your wardrobe to place a complete bed set.",
+    "stars": 0,
+    "category": "Bedsheets",
+    "img_url": "/img/products/images (2).jpg",
+    "price": 900
+}
+{
+    "_id": 22,
+    "title": "Dual Colour Curtains",
+    "slogan": "Let's have a royal look",
+    "description": "High quality curtains provides a royal look.  Silicone sleeve provides a good grip, a see-through window, and prevents the dirt and dust.",
+    "stars": 0,
+    "category": "Curtains",
+    "img_url": "/img/products/curtain-cloth-250x250.png",
+    "price": 23.0
+}
+{
+    "_id": 23,
+    "title": "WiredTiger Table Cover",
+    "slogan": "Unleash the tiger",
+    "description": "Crafted from ultra-soft combed cotton, this essential table cover features sporty contrast.",
+    "stars": 0,
+    "category": "Table Covers",
+    "img_url": "/img/products/Swayam-Black-4-Seater-Table-Cover-281-Pcs-Set29-5004-502721-1-catalog_m.jpg",
+    "price": 980
+}
