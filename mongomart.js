@@ -4,6 +4,7 @@ var express = require('express'),
     MongoClient = require('mongodb').MongoClient,
     assert = require('assert'),
     ItemDAO = require('./items').ItemDAO,
+    UserDAO = require('./user').UserDAO,
     CartDAO = require('./cart').CartDAO;
 
 
@@ -44,6 +45,7 @@ MongoClient.connect(dbURI, function(err, db) {
 
     var items = new ItemDAO(db);
     var cart = new CartDAO(db);
+    var user = new UserDAO(db);
 
     var router = express.Router();
 
@@ -197,7 +199,7 @@ MongoClient.connect(dbURI, function(err, db) {
         });
     });
 
-
+    
     router.post("/user/:userId/cart/items/:itemId", function(req, res) {
         "use strict";
 
@@ -255,6 +257,28 @@ MongoClient.connect(dbURI, function(err, db) {
                        });
         });
     });
+
+
+    router.post("/user/new", function(req, res) {
+        console.log(req.body);
+        user.addUser(req.body);
+        res.send(req.body);
+    });
+    
+    router.post("/auth", function(req, res) {
+        user.auth(req.body, function(user) {
+            if(user == null) {
+                res.send(null);
+                res.end();
+            } else {
+                res.send(user);
+                res.end();
+            }
+            console.log(user);
+            res.send();
+        });
+    });
+
 
 
     function cartTotal(userCart) {
