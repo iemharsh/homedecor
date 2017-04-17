@@ -1,4 +1,4 @@
-# mongomart
+# Home Decor
 Ecommerce app Using the MongoDB driver and Express
 
 # Technology Stack
