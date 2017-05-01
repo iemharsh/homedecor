@@ -37,14 +37,24 @@ Vue.component('auth', {
                 <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <ul class="nav nav-pills">
-                        <li v-bind:class="{ active: loginMode }">
-                            <a href="#" style="color: green;" @click="loginMode=true">Login</a>
-                        </li>
-                        <li v-bind:class="{ active: !loginMode }">
-                            <a href="#" style="color: green;" @click="loginMode=false">Signup</a>
-                        </li>
-                    </ul>
+                    
+                    <div class="columns">
+                        <div class="column">
+                            <button class="button" 
+                                @click="loginMode=true"
+                                v-bind:class="{ 'is-dark' : loginMode }" 
+                                style="width: 100%">
+                                <a href="#" style="color: green;" >Login</a>
+                            </button>
+                        </div>
+                        <div class="column">
+                            <button class="button" @click="loginMode=false" 
+                                v-bind:class="{ 'is-dark' : !loginMode }" style="width: 100%">
+                                <a href="#" style="color: green;">Signup</a>
+                            </button>
+                        </div>
+                    </div>
+                     
                 </div>
                 <div class="modal-body">
                     <login v-if="loginMode" v-on:authenticated="authenticated"></login>
@@ -86,7 +96,7 @@ Vue.component('login', {
                 <label><input type="checkbox"> Remember me</label>
             </div>
             -->
-            <button type="submit" class="btn btn-default" @click="signin">Login</button>
+            <button type="submit" class="btn btn-primary" @click="signin">Login</button>
         </div>
     `,
     data() {
@@ -145,7 +155,7 @@ Vue.component('signup', {
 
             <div class="form-group">
                 <label for="address">Address:</label>
-                <input type="password" class="form-control" id="address" name="address" v-model="address">
+                <input type="text" class="form-control" id="address" name="address" v-model="address">
             </div>
 
             <button class="btn btn-primary" @click="signup">SignUp</button>

@@ -4,6 +4,7 @@ Ecommerce app Using the MongoDB driver and Express
 # Technology Stack
 - Mongo
 - Express
+- Vuejs
 
 ## Installation
 ```bash
